@@ -1,6 +1,7 @@
 FROM golang:1.11
 LABEL MAINTAINER="xieWei(1156143589@qq.com)"
 
+ENV GO111MODULE on
 WORKDIR /go/src/go-docker
 
 COPY . .

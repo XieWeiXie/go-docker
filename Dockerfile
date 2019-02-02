@@ -5,7 +5,6 @@ WORKDIR /go/src/go-docker
 
 COPY . .
 
-RUN go mod vendor
 
 RUN make
 

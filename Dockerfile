@@ -11,4 +11,4 @@ RUN go mod vendor
 
 RUN make
 
-CMD [ "bash", "-c", "/go/src/go-docker" ]
+CMD [ "bash", "-c", "/go/src/go-docker;" ]

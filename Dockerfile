@@ -1,4 +1,4 @@
-FROM 1.11
+FROM golang:1.12rc
 LABEL MAINTAINER="xieWei(1156143589@qq.com)"
 
 WORKDIR /go/src/go-docker
